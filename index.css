@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Josefin slab', serif;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.bk {
+    min-height: 100vh;
+    background-image: url(./stephens-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: #212529; */
+    position: fixed;
+    top: 5%;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 0rem;
+}
+
+header .logo h3 {
+    color: #fff;
+    font-size: 1.7rem;
+
+}
+
+nav a {
+    margin: 0rem 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+
+    color: #57e2b2;
+    text-decoration: underline;
+}
+
+.active {
+    color: #57e2b2;
+}
+ i{
+    margin: 0rem .5rem;
+    color: #fff;
+ }
+ i:hover {
+
+    color: #57e2b2;
+    cursor: pointer;
+}
+.he{
+    text-align: center;
+    padding-top: 13rem;
+    font-size: 30px;
+    font-style: italic;
+    color: #fff;
+}
+.he1{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 15px;
+    font-style: italic;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+}
